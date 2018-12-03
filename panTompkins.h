@@ -33,9 +33,9 @@
 #ifndef PAN_TOMPKINS
 #define PAN_TOMPKINS
 
-typedef int dataType;
+typedef unsigned long dataType;
 
-void panTompkins();
+void panTompkins(char file_in[],char file_out[]);
 void init(char file_in[], char file_out[]);
 
 #endif
